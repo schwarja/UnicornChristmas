@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD05DC6C1C242DBD00C1A1CB /* InstructionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05DC6B1C242DBD00C1A1CB /* InstructionsController.swift */; };
+		AD05DC6E1C24DA8600C1A1CB /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05DC6D1C24DA8600C1A1CB /* ResultController.swift */; };
+		AD05DC701C2539C500C1A1CB /* GameOverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05DC6F1C2539C500C1A1CB /* GameOverController.swift */; };
+		AD3AD9C91C21FF5200723890 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3AD9C81C21FF5200723890 /* AppDelegate.swift */; };
+		AD3AD9CB1C21FF5200723890 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3AD9CA1C21FF5200723890 /* ViewController.swift */; };
+		AD3AD9CE1C21FF5200723890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3AD9CC1C21FF5200723890 /* Main.storyboard */; };
+		AD3AD9D01C21FF5200723890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3AD9CF1C21FF5200723890 /* Assets.xcassets */; };
+		AD3AD9D31C21FF5200723890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3AD9D11C21FF5200723890 /* LaunchScreen.storyboard */; };
+		AD3AD9DD1C220BAB00723890 /* Curlz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD3AD9DB1C22018500723890 /* Curlz.ttf */; };
+		AD3AD9DF1C220C1C00723890 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3AD9DE1C220C1C00723890 /* LaunchScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD05DC6B1C242DBD00C1A1CB /* InstructionsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsController.swift; sourceTree = "<group>"; };
+		AD05DC6D1C24DA8600C1A1CB /* ResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		AD05DC6F1C2539C500C1A1CB /* GameOverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverController.swift; sourceTree = "<group>"; };
+		AD3AD9C51C21FF5200723890 /* Unicorn christmas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unicorn christmas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3AD9C81C21FF5200723890 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD3AD9CA1C21FF5200723890 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD3AD9CD1C21FF5200723890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD3AD9CF1C21FF5200723890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD3AD9D21C21FF5200723890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD3AD9D41C21FF5200723890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3AD9DB1C22018500723890 /* Curlz.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Curlz.ttf; sourceTree = "<group>"; };
+		AD3AD9DE1C220C1C00723890 /* LaunchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD3AD9C21C21FF5200723890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD3AD9BC1C21FF5200723890 = {
+			isa = PBXGroup;
+			children = (
+				AD3AD9C71C21FF5200723890 /* Unicorn christmas */,
+				AD3AD9C61C21FF5200723890 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD3AD9C61C21FF5200723890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD3AD9C51C21FF5200723890 /* Unicorn christmas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD3AD9C71C21FF5200723890 /* Unicorn christmas */ = {
+			isa = PBXGroup;
+			children = (
+				AD3AD9DA1C22016900723890 /* Resources */,
+				AD3AD9C81C21FF5200723890 /* AppDelegate.swift */,
+				AD3AD9CA1C21FF5200723890 /* ViewController.swift */,
+				AD3AD9CC1C21FF5200723890 /* Main.storyboard */,
+				AD3AD9CF1C21FF5200723890 /* Assets.xcassets */,
+				AD3AD9D11C21FF5200723890 /* LaunchScreen.storyboard */,
+				AD3AD9DE1C220C1C00723890 /* LaunchScreen.swift */,
+				AD05DC6B1C242DBD00C1A1CB /* InstructionsController.swift */,
+				AD05DC6D1C24DA8600C1A1CB /* ResultController.swift */,
+				AD05DC6F1C2539C500C1A1CB /* GameOverController.swift */,
+			);
+			path = "Unicorn christmas";
+			sourceTree = "<group>";
+		};
+		AD3AD9DA1C22016900723890 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD3AD9D41C21FF5200723890 /* Info.plist */,
+				AD3AD9DB1C22018500723890 /* Curlz.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD3AD9C41C21FF5200723890 /* Unicorn christmas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD3AD9D71C21FF5200723890 /* Build configuration list for PBXNativeTarget "Unicorn christmas" */;
+			buildPhases = (
+				AD3AD9C11C21FF5200723890 /* Sources */,
+				AD3AD9C21C21FF5200723890 /* Frameworks */,
+				AD3AD9C31C21FF5200723890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unicorn christmas";
+			productName = "Unicorn christmas";
+			productReference = AD3AD9C51C21FF5200723890 /* Unicorn christmas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD3AD9BD1C21FF5200723890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = STRV;
+				TargetAttributes = {
+					AD3AD9C41C21FF5200723890 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = EAVQTDVRT7;
+					};
+				};
+			};
+			buildConfigurationList = AD3AD9C01C21FF5200723890 /* Build configuration list for PBXProject "Unicorn christmas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD3AD9BC1C21FF5200723890;
+			productRefGroup = AD3AD9C61C21FF5200723890 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD3AD9C41C21FF5200723890 /* Unicorn christmas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD3AD9C31C21FF5200723890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3AD9DD1C220BAB00723890 /* Curlz.ttf in Resources */,
+				AD3AD9D31C21FF5200723890 /* LaunchScreen.storyboard in Resources */,
+				AD3AD9D01C21FF5200723890 /* Assets.xcassets in Resources */,
+				AD3AD9CE1C21FF5200723890 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD3AD9C11C21FF5200723890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD05DC6C1C242DBD00C1A1CB /* InstructionsController.swift in Sources */,
+				AD05DC701C2539C500C1A1CB /* GameOverController.swift in Sources */,
+				AD3AD9CB1C21FF5200723890 /* ViewController.swift in Sources */,
+				AD05DC6E1C24DA8600C1A1CB /* ResultController.swift in Sources */,
+				AD3AD9C91C21FF5200723890 /* AppDelegate.swift in Sources */,
+				AD3AD9DF1C220C1C00723890 /* LaunchScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD3AD9CC1C21FF5200723890 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD3AD9CD1C21FF5200723890 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD3AD9D11C21FF5200723890 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD3AD9D21C21FF5200723890 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD3AD9D51C21FF5200723890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD3AD9D61C21FF5200723890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD3AD9D81C21FF5200723890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_OPTIMIZATION_LEVEL = s;
+				INFOPLIST_FILE = "Unicorn christmas/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.strv.stereocast.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "88954838-15ca-43a9-ad09-9ab825bc9ac0";
+			};
+			name = Debug;
+		};
+		AD3AD9D91C21FF5200723890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Unicorn christmas/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.strv.stereocast.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "88954838-15ca-43a9-ad09-9ab825bc9ac0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD3AD9C01C21FF5200723890 /* Build configuration list for PBXProject "Unicorn christmas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3AD9D51C21FF5200723890 /* Debug */,
+				AD3AD9D61C21FF5200723890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD3AD9D71C21FF5200723890 /* Build configuration list for PBXNativeTarget "Unicorn christmas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3AD9D81C21FF5200723890 /* Debug */,
+				AD3AD9D91C21FF5200723890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD3AD9BD1C21FF5200723890 /* Project object */;
+}
